@@ -117,7 +117,7 @@ nav .brand-logo img {
   background-size: 100% 100%;
   display: inline;
   float: left;
-  height: 420px;
+  height: 600px;
   position: relative;
   width: 100%;
 }
@@ -159,7 +159,7 @@ nav .brand-logo img {
 
 
 .call-to-about {
-  bottom: -68px;  
+  bottom: -218px;  
   left: 47.5%;
   position: absolute;
 }
