@@ -1148,18 +1148,19 @@ textarea.materialize-textarea {
 
 
 .contact-map{
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
-  height: 500px;
-  display: inline;
-  float: left;
-  width: 100%;
+         position: relative;
+        padding-bottom: 75%; // This is the aspect ratio
+        height: 0;
+        overflow: hidden;
 }
 
 
 .contact-map iframe{
-  border-radius: 4px;
-  margin-bottom: -5px;
+  position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
 }
 
 
